@@ -15,7 +15,7 @@ service salesforce:RecordService on webhookListener {
       //Not Implemented
     }
     remote function onDelete(salesforce:EventData payload ) returns error? {
-      //Not Implemencccted
+      //Not Implemented
     }
     remote function onRestore(salesforce:EventData payload ) returns error? {
       //Not Implemented
