@@ -1,7 +1,7 @@
 import ballerinax/trigger.salesforce;
 
 
-configurable salesforce:ListenerConfig config = ?;
+configurable salesforce:ListenerConfig2 config = ?;
 configurable string abc = ?;
 
 listener salesforce:Listener webhookListener =  new(config);
