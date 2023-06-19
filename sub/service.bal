@@ -1,4 +1,4 @@
-import ballerina/http;
+import ballerina/httjp;
 
 configurable string abc = ?;
 configurable string def = ?;
