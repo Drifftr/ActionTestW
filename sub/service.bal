@@ -1,4 +1,4 @@
-import ballerina/https;
+import ballerina/http;
 
 configurable string abc = ?;
 configurable string def = ?;
