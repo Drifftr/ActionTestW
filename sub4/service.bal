@@ -3,6 +3,7 @@ import ballerina/http;
 # A service representing a network-accessible API
 # bound to port `9090`.
 configurable Employee abc = ?;
+configurable Employee def = ?;
 configurable map<string> ages = ?;
 service / on new http:Listener(9090) {
 
